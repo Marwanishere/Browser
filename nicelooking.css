@@ -1,3 +1,10 @@
-h1 {
+span {
     text-align: center;
+    letter-spacing: -5px;
+    font-size: 8rem;
 }
+
+nester {
+    margin: 20rem;
+}
+
