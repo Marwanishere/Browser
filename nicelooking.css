@@ -5,6 +5,12 @@ span {
 }
 
 nester {
-    margin: 20rem;
+    margin: 36%;
+    white-space: nowrap;
 }
 
+questions {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
