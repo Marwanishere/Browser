@@ -16,3 +16,7 @@ questions {
 input[type="text"] {
     width: 500px;
 }
+input[type="submit"] {
+    margin: 5%;
+    margin-left: 75px;
+}
