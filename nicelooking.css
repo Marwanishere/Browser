@@ -5,8 +5,8 @@ span {
 }
 
 nester {
-    margin: 36%;
-    white-space: nowrap;
+    display: flex;
+    justify-content: center;
 }
 
 questions {
