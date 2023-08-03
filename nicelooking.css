@@ -30,3 +30,10 @@ imagesalign {
     display: flex;
     justify-content: center;
 }
+questions2 {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    margin-left: 15%;
+    margin-top: -60px;
+}
