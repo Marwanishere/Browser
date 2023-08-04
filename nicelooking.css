@@ -3,6 +3,11 @@ span {
     letter-spacing: -5px;
     font-size: 8rem;
 }
+span2 {
+    letter-spacing: -5px;
+    font-size: 2rem;
+}
+
 /*used cs50 ai bot to help with centering logo and search bar and buttons*/
 nester {
     display: flex;
