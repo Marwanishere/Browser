@@ -1,2 +1,9 @@
 <!--used cs50 ai chat to help with the following line-->
-<meta http-equiv="refresh" content="0; URL='http://www.google.com/search'" />
+<script>
+document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var searchTerm = document.getElementById('userInput').value;
+    window.location.href = 'https://www.google.com/search?q=' + searchTerm + '&btnI';
+  });<meta http-equiv="refresh" content= window.location.href>
+</script>
+<!--you have to redirect to the first webpage on the search basically-->
