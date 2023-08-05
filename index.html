@@ -21,5 +21,13 @@
                         <input class="border border-0 rounded" type="submit" value="Google Search" >
                         <input action="https://www.google.com/search" class="border border-0 rounded" type="submit" value="I'm Feeling Lucky" href="&btnI">
                     </form></questions>
+                    <a id="myLink">Link</a>
+                    <!--the javascript below was built using cs50's ai bot-->
+                    <script>
+                        var base_url = "https://www.google.com/search";
+                        var path = "&btnI";
+                        var full_url = base_url + path;
+                        document.getElementById("myLink").href = full_url;
+                    </script>
     </body>
 </html>

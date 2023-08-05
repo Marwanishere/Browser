@@ -1,3 +1,7 @@
-import webbrowser
+from flask import Flask, render_template
+app = Flask(__name__)
 
-webbrowser.open('http://www.google.com')
+@app.route('/index.html')
+def home():
+    message = "Hello, CS50!"
+    return render_template('index.html', message=message)
