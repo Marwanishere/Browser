@@ -14,7 +14,8 @@ nester {
     justify-content: center;
     margin-top: 10%;
 }
-
+/* used cs50 ai bot for the questions style settings below, particualrly fro flex
+display and justify-content:center*/
 questions {
     display: flex;
     justify-content: center;
